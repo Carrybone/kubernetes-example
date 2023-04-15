@@ -1,7 +1,7 @@
 name: build
 on:
-push:
-branches:
+  push:
+    branches:
       - 'main'
 env:
   DOCKERHUB_USERNAME: camelyet
